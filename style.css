@@ -106,10 +106,10 @@ body{
 }
 
 @media (max-width: 600px){
-    .delete{
+    /* .delete{
         font-size: 1rem;  
         text-align: center;
-    }  
+    }   */
     .operationsList{
         gap: 0.5rem;
     }
@@ -122,10 +122,10 @@ body{
     }
 }
 @media (max-width: 1024px){
-    .delete{
+    /* .delete{
         font-size: 1rem;  
         text-align: center;
-    }  
+    }   */
     .operationsList{
         gap: 0.5rem;
     }
