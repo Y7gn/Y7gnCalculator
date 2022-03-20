@@ -139,7 +139,7 @@ square.onclick= function(){
 } 
 deleteNow.onclick= function(){
     console.log(num);
-    num = num.slice(num.length-1)
+    num = num.slice(0,num.length-1)
     console.log(+num);
     // console.log(num)
     // console.log(Math.round(+num));
