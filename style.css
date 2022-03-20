@@ -106,10 +106,6 @@ body{
 }
 
 @media (max-width: 600px){
-    /* .delete{
-        font-size: 1rem;  
-        text-align: center;
-    }   */
     .operationsList{
         gap: 0.5rem;
     }
@@ -120,12 +116,12 @@ body{
     .btn{
         min-height: 62px;
     }
+    .clear,.delete{
+        font-size: 20px;
+
+    }
 }
 @media (max-width: 1024px){
-    /* .delete{
-        font-size: 1rem;  
-        text-align: center;
-    }   */
     .operationsList{
         gap: 0.5rem;
     }
