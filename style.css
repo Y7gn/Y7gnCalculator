@@ -11,6 +11,7 @@ li{
     color: white;
     z-index: 2;
     margin: auto;
+    border-radius: 11px;
 }
 body{
     background-color: black;
