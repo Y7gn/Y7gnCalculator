@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+
+li{
+    list-style-type: none;
+    font-size: 3rem;
+    color: white;
+    z-index: 2;
+    margin: auto;
+}
+body{
+    background-color: black;
+    
+}
+
+
+
+/* THIS IS EVERYTHING */
+.bodyContainer{
+    background-color: black;        
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* This is the Object */
+.Content{
+    background-color: gray;
+    width: 649px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* This is the Black Result */
+
+.screen{
+    background-color: rgba(0, 0, 0, 0.527);
+    /* height: 200px; */
+    font-size: 8rem;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+    padding: 1rem;
+    height: 20%;
+    
+}
+
+/* This is the down options */
+.operations{
+    height: 80%;
+}
+.operationsList{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 10px;
+    padding: 10px;
+    background: #000000d6;
+}
+.btn{
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92px;
+    /* background-color: #57423F; */
+    background-color: #FFFFFFBF;
+    color: black;
+}
+
+.zero{
+    width: 18%;
+}
+
+.clear,.delete{
+    background-color: #721818;
+}
+
+.number:active{
+    transform: scale(1.09) ;
+    animation-duration: 0.5s;
+}
+.operation:active{
+    transform: scale(1.09) ;
+    animation-duration: 0.5s;
+}
+.delete:active{
+    transform: scale(1.09) ;
+    animation-duration: 0.5s;
+    background-color: rgb(66, 8, 8);
+}
+.clear:active{
+    transform: scale(1.09) ;
+    animation-duration: 0.5s;
+    background-color: rgb(66, 8, 8);
+}
+
+@media (max-width: 600px){
+    .delete{
+        font-size: 1rem;  
+        text-align: center;
+    }  
+    .operationsList{
+        gap: 0.5rem;
+    }
+    .Content{
+        width: 365px;
+        min-height: 92px;
+    }
+    .btn{
+        min-height: 62px;
+    }
+}
+@media (max-width: 1024px){
+    .delete{
+        font-size: 1rem;  
+        text-align: center;
+    }  
+    .operationsList{
+        gap: 0.5rem;
+    }
+    .Content{
+        width: 365px;
+        min-height: 92px;
+    }
+    .btn{
+        min-height: 62px;
+    }
+}
